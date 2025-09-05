@@ -1,0 +1,234 @@
+body{font-family: "Roboto", sans-serif; 
+    color: #434455;
+background-color: #fff;}
+
+ul, ol {list-style-type: none;
+margin: 0;
+padding: 0;}
+
+a {text-decoration: none;}
+
+h1, h2, h3, h4, h5, h6, p 
+{margin: 0;}
+
+/* common */
+
+.container{max-width: 1158px;
+padding: 0 15px;
+margin: auto;}
+
+/* header */
+
+.header{border-bottom: 1px solid #e7e9fc;}
+
+.header-container{display: flex;
+align-items: center;}
+
+.nav-header{display: flex;
+align-items: center;}
+
+.header-list{display: flex;
+    align-items: center;
+    gap: 40px;}
+
+.contacts-list{ display: block;
+    padding: 24px 0;
+    gap: 40px;
+    display: flex;
+    align-items: center;}
+
+.logo{padding: 24px;
+margin-right: 76px;}
+
+.logo-header{font-family: "Raleway", sans-serif;
+font-weight: 700;
+font-size: 18px;
+line-height: 117%;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4d5ae5;
+}
+
+.logo-header .logo-part{
+color: #2e2f42;}
+
+.header-link{
+display: block;
+padding: 24px 0;
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.02em;
+color: #2e2f42;}
+
+.header-link:hover,
+.header-link:focus,
+.contacts-link:hover,
+.contacts-link:focus{
+color: #404bbf;}
+
+.button:focus,
+.button:hover{background-color: #404bbf;}
+
+.contacts{font-style: normal;
+margin-left: auto;}
+
+.contacts-link{
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.02em;
+color: #434455;}
+
+/* main-container */
+
+
+.main{background-color: #2e2f42;
+margin: auto;}
+
+.main-container{
+  width: 1128px;
+  margin: 0 auto;
+  padding: 188px 0;
+ text-align: center;}
+
+.main-name{font-weight: 700;
+font-size: 56px;
+line-height: 107%;
+letter-spacing: 0.02em;
+margin: 0 0 48px 0;
+text-align: center;
+color: #fff;}
+
+.button{background-color: #4d5ae5;
+display: inline-block;
+padding: 16px 32px;
+border-radius: 4px;
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.04em;
+color: #fff;
+cursor: pointer;}
+
+.name{
+font-weight: 500;
+margin: 0 0 8px 0;
+font-size: 20px;
+line-height: 120%;
+letter-spacing: 0.02em;
+color: #2e2f42;}
+
+/* text section */
+
+
+.name-text{font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.02em;
+margin: 0 0 8px 0;}
+
+.text-list{display: flex;
+justify-content: center;
+padding: 120px ;
+align-items: center;
+gap: 24px;
+margin: auto;
+}
+
+.text-item{ width: calc((100% - (3 * 24px)) / 4); 
+max-width: 264px;
+text-align: left;}
+
+.visually-hidden {
+ position: absolute;
+ width: 1px;
+ height: 1px;
+ margin: -1px;
+ border: 0;
+ padding: 0;
+ white-space: nowrap;
+ clip-path: inset(100%);
+ clip: rect(0 0 0 0);
+ overflow: hidden;
+}
+
+
+/* team section */
+
+.team-list{display: flex;
+align-items: center; 
+justify-content: center;
+padding: 72px 0 120px 0;
+gap: 24px;}
+
+
+.team{background-color: #f4f4fd;
+text-align: center;}
+
+.title{text-align: center;
+padding: 120px 0 0 0;
+margin: 0 0 72px 0;
+font-weight: 700;
+font-size: 36px;
+line-height: 111%;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
+text-transform: capitalize;}
+
+.team-item{background-color:#FFFFFF;
+text-align: center;
+padding-bottom: 32px;}
+
+.people-name{padding: 32px 0 8px 0;}
+
+.position{
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.02em;}
+
+/* Portfolio */
+
+
+.program{background-color:  #fff;
+padding: 0 156px;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+gap:48px 24px;}
+
+.program-list{padding: 32px 16px;
+border-bottom: 1px solid #e7e9fc;}
+
+.program-name{
+margin: 32px 0 8px 16px;
+font-weight: 500px;
+font-size: 20px;
+line-height: 120%;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color:#2e2f42;}
+
+.name-text {
+  margin: 0 0 32px 16px;}  
+  
+/* Footer */
+
+.footer{padding-top: 100px;
+padding-left: 156px;
+background-color: #2e2f42;}
+
+.logo-footer-part{color: #f4f4fd;}
+
+.footer-part{display: flex;
+margin-bottom:16px;}
+
+.footer-text{
+max-width: 264px;
+padding-bottom: 100px;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.02em;
+color: #f4f4fd;}
